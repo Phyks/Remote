@@ -1,0 +1,45 @@
+Remote
+======
+
+Remote allows you to remotely control any presentation (such as pdf files, diaporamas or impress.js presentations) with any device with a browser. It provides you an image of your screen, displayed on your (pocket) device and you can go through the slides.
+
+- Application : Remote
+- Version : 1.0
+- Authors : Phyks (webmaster@phyks.me) and CCC (contact@cphyc.me)
+- More info on http://phyks.me
+- License : libpng/zlib (http://opensource.org/licenses/Zlib)
+
+
+Pre-requisites
+==============
+
+- A webserver (Apache is used by default, but you can change it in Launcher.sh)
+- PHP
+- A Linux system because Windows makes easy things be very hard
+
+
+Usage
+=====
+
+Just launch Launcher.sh and follow the guide :) It will configure everything properly and clean it after use. It will display the address to type using, by default wlan0 interface or eth0 if wlan0 is not available. You can force which interface you want to use by launching "Launcher.sh interface".
+
+You can type a custom command in the specified field. For example, to simulate a specific key press, just type : "./remote.sh key $window" where remote.sh is the script that handle key press simulation (left or right for the buttons for example), key is the key you want to simulate and $window is a Remote-specific variable to act on the current window.
+
+You can use some variables and parameters :
+* $window will be replaced with the window currently selected
+* --verbose will output the output of the command (always finish the command with --verbose)
+
+Note : This version mutes sound when launched to avoid extra sounds played by Gnome when you use the arrows to navigate through your presentation. Just comment (#) the corresponding lines in Launcher.sh to avoid this behavior.
+
+
+Troobleshooting :
+=================
+
+* You might see this error message :
+"An error occured. Screenshot is not available.
+Have you opened the presentation viewer ?"
+
+If this happens and you shouldn't see it, then try to chmod the tmp folder within the Remote folder (Apache can't write inside by default). A "chmod 777 tmp" should work fine.
+
+
+* If your browser can't find the address, maybe you renamed the "Remote" folder. Then, you can change manually the address opened in Launcher.sh to match your configuration.

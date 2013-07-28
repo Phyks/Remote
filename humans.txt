@@ -1,0 +1,29 @@
+/* TEAM */
+	Name : Phyks
+	Site: http://www.phyks.me
+	E-mail : webmaster@phyks.me
+	Jabber : 
+	Location: France.
+
+
+	Name : CCC
+	Location : France
+	Site : http://www.cphyc.me
+	E-mail : contact@cphyc.me
+	
+/* THANKS */
+	Jquery.org for the jquery.js script file (under MIT License)
+	Alsacreations for the base stylesheet
+	PADILICIOUS.COM for the swipe.js script to handle touch events
+	Wikimedia Foundations on which website we found the arrows icons (modified) under GNU Lesser General Public License
+	
+/* LICENSE */
+	Copyright (c) 2013 Phyks and CCC
+	This software is licensed under the zlib/libpng License.
+
+
+/* SITE */
+	Last update: 02/11/2012
+	Standards: HTML5, CSS3
+	Components: jQuery
+	Software: Arch, Fedora, Gnome Shell, gedit, php, apache and xdotool !
