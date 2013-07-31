@@ -6,7 +6,7 @@
 	Location: France.
 
 
-	Name : CCC
+	Name : cphyc
 	Location : France
 	Site : http://www.cphyc.me
 	E-mail : contact@cphyc.me
@@ -18,9 +18,7 @@
 	Wikimedia Foundations on which website we found the arrows icons (modified) under GNU Lesser General Public License
 	
 /* LICENSE */
-	Copyright (c) 2013 Phyks and CCC
-	This software is licensed under the zlib/libpng License.
-
+    BEER-WARE LICENSE (see LICENSE file or README.md for more infos)
 
 /* SITE */
 	Last update: 02/11/2012
